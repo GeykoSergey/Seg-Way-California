@@ -1,0 +1,45 @@
+.about {
+  background-color: var(--main-bg-color);
+
+  &__container {
+  }
+
+  &__descr {
+    margin: 0;
+    margin-bottom: 3em;
+    max-width: 892px;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1.6;
+    color: var(--dark-text-color);
+  }
+
+  &__descr-highlight {
+    font-weight: 700;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2em;
+  }
+
+  &__item {
+    grid-column: 3 span;
+  }
+
+  &__digit {
+    font-weight: 600;
+    font-size: 3.5em;
+    line-height: 1.6;
+    color: var(--brand-color-hover);
+  }
+
+  &__text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.6;
+    color: var(--dark-text-color);
+  }
+}

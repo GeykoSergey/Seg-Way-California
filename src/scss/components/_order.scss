@@ -1,0 +1,46 @@
+.order {
+  padding: 1.5rem 0;
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--light-bg-color);
+    padding: 1.5rem;
+  }
+
+  // &__container {
+  //   display: grid;
+  //   grid-template-columns: repeat(12, 1fr);
+  //   background-color: var(--light-bg-color);
+  //   padding: 1.5rem;
+  // }
+
+  &__left {
+    flex: 0 0 50%;
+    min-width: 400px;
+  }
+
+  // &__left {
+  //   grid-column: 5span;
+  // }
+
+  &__title {
+    margin: 0;
+  }
+
+  &__descr {
+    margin: 0;
+  }
+
+  &__right {
+    flex: 1 0 50%;
+  }
+
+  // &__right {
+  //   grid-column: 5span;
+  // }
+
+  &__form {
+    max-width: 25rem;
+  }
+}

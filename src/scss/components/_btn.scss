@@ -1,0 +1,14 @@
+.btn {
+  display: flex;
+  min-width: 10.83em;
+  padding: 1em;
+
+  align-items: center;
+  justify-content: center;
+
+  color: var(--lighten-text-color);
+  background-color: var(--brand-color);
+  &:not(:last-child) {
+    margin-bottom: 1em;
+  }
+}

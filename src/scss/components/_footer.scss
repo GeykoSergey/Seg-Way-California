@@ -1,0 +1,19 @@
+.footer {
+  font-size: 1rem;
+  color: #fff;
+  background-color: var(--dark-bg-color);
+  padding: 1.5rem 0;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+  }
+
+  &__phone {
+  }
+}
+
